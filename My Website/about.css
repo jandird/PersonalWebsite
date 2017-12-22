@@ -2,9 +2,10 @@
 .download {
 	background-color: white;
 	border: none;
-	position: absolute;
+	position: relative;
 	left: 50%;
 	transform: translate(-50%, 0);
+	margin-top: 25px;
 }
 
 /*.downCol {
@@ -23,11 +24,19 @@
 
 #me {
 	font-family: Cabin;
+	font-size: 20px;
+	font-weight: 700;
+	position: fixed;
+	top: 25%;
+    left: 50%;
+    transform: translate(-50%, 0%);
 }
 
 #def {
 	color: white;
 	text-align: center;
+	font-size: 30px;
+	font-weight: 700;
 }
 
 #second {
