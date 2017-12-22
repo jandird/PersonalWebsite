@@ -1,0 +1,46 @@
+
+.download {
+	background-color: white;
+	border: none;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+/*.downCol {
+	height: auto;
+}*/
+
+#mainBack {
+    min-width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#me {
+	font-family: Cabin;
+}
+
+#def {
+	color: white;
+	text-align: center;
+}
+
+#second {
+	top: 100%;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background-color: white;
+}
+
+#mac {
+	height: 100%;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+}

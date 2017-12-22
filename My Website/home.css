@@ -1,0 +1,145 @@
+body {
+	background-color: black;
+}
+
+#personalLogo {
+    height: 30px;
+    width: 30px;
+}
+
+#mainBack {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+/*#dalip {
+    color: white;
+    font-family: Great Vibes;
+    font-size: 110px;
+    font-weight: 700;
+    line-height: 100px;
+    text-align: center;
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    padding-top: 50px;
+    margin: 0;
+    transform: translate(-50%, -100%);
+
+}
+
+#occupation {
+    color: white;
+    position: fixed;
+    text-align: center;
+    font-family: Cookie;
+    font-size: 40px;
+    position: fixed;
+    line-height: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+}*/
+
+#header {
+    color: white;
+    text-align: center;
+    position: fixed;
+    top: 34%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+#dalip {
+    font-family: Great Vibes;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 100px;
+}
+
+#occupation {
+    font-family: Playball;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+#middle {
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    /*min-height: 100%;*/
+    height: auto;
+    opacity: 50%;
+}
+
+#highlightsLabel {
+    color: black;
+    font-family: Great Vibes;
+    font-size: 70px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 100px;
+    margin: 0;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+#highlightHeader {
+    height: 110px;
+}
+
+.highlightCell {
+    height: 330px;
+}
+
+.highlightImage {
+    margin: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    position: absolute;
+    height: 300px;
+    width: 300px;
+}
+
+.highlightTitle {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.highlightBody {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.hovering {
+    margin: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    border: 10px solid black;
+    background-color: white;
+    opacity: 0;
+
+    color: black;
+    text-align: center;
+    font-family: Cabin;
+}
+
+.hovering:hover {
+
+    opacity: 1;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
