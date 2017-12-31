@@ -4,7 +4,20 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+.navImg {
+  width: 25px;
+  filter: invert(100%);
+}
+
 .navbar-custom {
+  color: white;
+  font-size: 20px;
+  font-family: Cabin;
+}
+
+.navbar-customt {
+  margin-top: 5px;
   color: white;
   font-size: 20px;
   font-family: Cabin;

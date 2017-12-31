@@ -1,0 +1,71 @@
+body {
+	background-color: black;
+}
+
+.odd {
+	width: 100%;
+	height: auto;
+	margin: 0;
+	position: relative;
+	background-color: black;
+	font-family: cabin;
+	font-weight: 700;
+	color: white;
+}
+
+.even {
+	width: 100%;
+	height: auto;	
+	margin: 0;
+	position: relative;
+	background-color: white;
+	font-family: cabin;
+	font-weight: 700;
+}
+
+.oddPic {
+	border: solid white 10px;
+	margin-bottom: 10px;
+	width: 300px;
+	max-width: 100%;
+}
+
+.evenPic {
+	border: solid black 10px;
+	margin-bottom: 10px;
+	width: 300px;
+	max-width: 100%;
+}
+
+.header {
+	font-size: 35px;
+	text-align: center;
+}
+
+.info {
+	font-size: 20px;
+	margin-top: 50px;
+}
+
+.oddSkill {
+	margin-top: 50px;
+	width: 100px;
+	height: 100px;
+	filter: invert(100%);
+}
+
+.evenSkill {
+	margin-top: 50px;
+	width: 100px;
+	height: 100px;
+}
+
+figcaption {
+	margin-top: 10px;
+	margin-bottom: 25px;
+	font-size: 20px;
+}
+
+a {
+	 color: white;
+}
