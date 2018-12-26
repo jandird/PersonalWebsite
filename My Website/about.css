@@ -97,3 +97,15 @@ figcaption {
 	margin-bottom: 25px;
 	font-size: 20px;
 }
+
+.gray {
+	-webkit-filter: grayscale(1);
+}
+
+.gray:hover{
+	-webkit-filter: grayscale(0);
+	-webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
